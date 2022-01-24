@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="component-container">
-        <Header />
+        <Header heading="PHONE DIRECTOERY"/>
           <div className="component-body-container">
             <button className="custom-btn add-btn">Add</button>
             <div className="grid-container heading-container">
