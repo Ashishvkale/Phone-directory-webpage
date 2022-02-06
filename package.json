@@ -1,24 +1,17 @@
 {
   "name": "phone-directory",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ashishvkale/phone-directory.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ashishvkale/phone-directory/issues"
-  },
-  "homepage": "https://github.com/Ashishvkale/phone-directory#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "botstrap": "^0.20.1",
-    "jquery": "^3.6.0"
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
